@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ISO27001-A.5.1",
+    "referentiel": "ISO 27001:2022",
+    "domaine": "Politiques de sécurité",
+    "titre": "Politiques de sécurité de l'information",
+    "resume": "L'organisation doit définir, faire approuver par la direction, publier et communiquer une politique de sécurité de l'information, revue à intervalles planifiés ou en cas de changement significatif.",
+    "questions_evaluation": [
+      "Existe-t-il une politique de sécurité de l'information formalisée et approuvée par la direction ?",
+      "La politique est-elle revue au moins une fois par an ?",
+      "La politique est-elle communiquée à l'ensemble des collaborateurs et parties prenantes concernées ?"
+    ],
+    "niveau_criticite_defaut": "moyen"
+  },
+  {
+    "id": "ISO27001-A.5.9",
+    "referentiel": "ISO 27001:2022",
+    "domaine": "Gestion des actifs",
+    "titre": "Inventaire des actifs informationnels",
+    "resume": "Les actifs associés aux informations et aux moyens de traitement de l'information doivent être identifiés, et un inventaire de ces actifs doit être établi et tenu à jour.",
+    "questions_evaluation": [
+      "Un inventaire des actifs (données, systèmes, applications) est-il maintenu à jour ?",
+      "Chaque actif a-t-il un propriétaire désigné ?",
+      "L'inventaire distingue-t-il les actifs selon leur niveau de sensibilité ?"
+    ],
+    "niveau_criticite_defaut": "moyen"
+  },
+  {
+    "id": "ISO27001-A.5.15",
+    "referentiel": "ISO 27001:2022",
+    "domaine": "Contrôle d'accès",
+    "titre": "Contrôle d'accès",
+    "resume": "Des règles pour contrôler l'accès physique et logique aux informations et aux moyens de traitement de l'information doivent être établies et mises en œuvre, sur la base des exigences métier et de sécurité.",
+    "questions_evaluation": [
+      "Le principe du moindre privilège est-il appliqué pour l'attribution des accès ?",
+      "Existe-t-il une procédure formelle de revue périodique des droits d'accès ?",
+      "Les accès sont-ils révoqués immédiatement lors du départ d'un collaborateur ou prestataire ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "ISO27001-A.5.23",
+    "referentiel": "ISO 27001:2022",
+    "domaine": "Relations avec les fournisseurs",
+    "titre": "Sécurité de l'information dans l'utilisation de services cloud",
+    "resume": "Les processus d'acquisition, d'utilisation, de gestion et de sortie des services cloud doivent être établis conformément aux exigences de sécurité de l'information de l'organisation.",
+    "questions_evaluation": [
+      "Une analyse de risque est-elle réalisée avant l'adoption d'un nouveau service SaaS/cloud ?",
+      "Les clauses contractuelles couvrent-elles la localisation des données, la réversibilité et la notification d'incident ?",
+      "Le fournisseur cloud dispose-t-il de certifications reconnues (ISO 27001, SOC 2, HDS si applicable) ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "ISO27001-A.5.30",
+    "referentiel": "ISO 27001:2022",
+    "domaine": "Continuité d'activité",
+    "titre": "Préparation TIC pour la continuité d'activité",
+    "resume": "La préparation des technologies de l'information et de la communication doit être planifiée, mise en œuvre, maintenue et testée sur la base des objectifs de continuité d'activité.",
+    "questions_evaluation": [
+      "Un plan de reprise d'activité (PRA) existe-t-il pour les systèmes critiques ?",
+      "Le PRA a-t-il été testé au cours des 12 derniers mois ?",
+      "Les objectifs RTO/RPO sont-ils définis et documentés pour chaque système critique ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "ISO27001-A.8.9",
+    "referentiel": "ISO 27001:2022",
+    "domaine": "Sécurité technique",
+    "titre": "Gestion de la configuration",
+    "resume": "Les configurations, y compris les configurations de sécurité, des matériels, logiciels, services et réseaux doivent être établies, documentées, mises en œuvre, surveillées et revues.",
+    "questions_evaluation": [
+      "Existe-t-il des configurations de référence (baselines) durcies pour les systèmes ?",
+      "Les écarts de configuration sont-ils détectés automatiquement (drift detection) ?",
+      "Les modifications de configuration passent-elles par un processus de gestion du changement ?"
+    ],
+    "niveau_criticite_defaut": "moyen"
+  },
+  {
+    "id": "ISO27001-A.8.24",
+    "referentiel": "ISO 27001:2022",
+    "domaine": "Cryptographie",
+    "titre": "Utilisation de la cryptographie",
+    "resume": "Des règles relatives à l'utilisation efficace de la cryptographie, y compris la gestion des clés cryptographiques, doivent être définies et mises en œuvre.",
+    "questions_evaluation": [
+      "Les données sensibles sont-elles chiffrées au repos et en transit ?",
+      "Existe-t-il une politique de gestion du cycle de vie des clés cryptographiques ?",
+      "Les algorithmes utilisés sont-ils conformes aux recommandations actuelles (ex. référentiel ANSSI) ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "ISO27001-A.8.25",
+    "referentiel": "ISO 27001:2022",
+    "domaine": "Développement sécurisé",
+    "titre": "Cycle de développement sécurisé",
+    "resume": "Des règles pour le développement sécurisé de logiciels et de systèmes doivent être établies et appliquées.",
+    "questions_evaluation": [
+      "La sécurité est-elle intégrée dès la phase de conception (Security by Design) ?",
+      "Des revues de code et des tests de sécurité (SAST/DAST) sont-ils réalisés avant mise en production ?",
+      "Les environnements de développement, test et production sont-ils cloisonnés ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  }
+]

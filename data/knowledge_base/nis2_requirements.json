@@ -1,0 +1,67 @@
+[
+  {
+    "id": "NIS2-ART21-GOV",
+    "referentiel": "Directive NIS2 (UE 2022/2555)",
+    "domaine": "Gouvernance",
+    "titre": "Gouvernance de la gestion des risques cyber",
+    "resume": "Les organes de direction des entités essentielles et importantes doivent approuver les mesures de gestion des risques de cybersécurité, superviser leur mise en œuvre et suivre une formation adaptée. Ils peuvent être tenus responsables des manquements.",
+    "questions_evaluation": [
+      "La direction a-t-elle formellement approuvé la stratégie de gestion des risques cyber ?",
+      "Les dirigeants suivent-ils une sensibilisation ou formation régulière à la cybersécurité ?",
+      "Existe-t-il un reporting régulier des risques cyber au niveau de la direction ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "NIS2-ART21-RISK",
+    "referentiel": "Directive NIS2 (UE 2022/2555)",
+    "domaine": "Gestion des risques",
+    "titre": "Mesures de gestion des risques (approche tous risques)",
+    "resume": "Les entités doivent mettre en œuvre des mesures techniques, opérationnelles et organisationnelles appropriées et proportionnées pour gérer les risques et prévenir/limiter l'impact des incidents, incluant analyse de risques, sécurité de la chaîne d'approvisionnement et gestion des vulnérabilités.",
+    "questions_evaluation": [
+      "Une analyse de risque formalisée est-elle réalisée et mise à jour périodiquement ?",
+      "La sécurité de la chaîne d'approvisionnement (fournisseurs, sous-traitants) est-elle intégrée à l'analyse de risque ?",
+      "Un processus de gestion des vulnérabilités et des correctifs est-il en place ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "NIS2-ART23-INCIDENT",
+    "referentiel": "Directive NIS2 (UE 2022/2555)",
+    "domaine": "Gestion des incidents",
+    "titre": "Notification des incidents significatifs",
+    "resume": "Les entités concernées doivent notifier à l'autorité compétente (en France, l'ANSSI) tout incident significatif, avec une alerte précoce sous 24h, une notification sous 72h, et un rapport final dans le mois.",
+    "questions_evaluation": [
+      "Une procédure de détection et de qualification des incidents significatifs existe-t-elle ?",
+      "Les délais de notification (24h / 72h / 1 mois) sont-ils connus et documentés dans la procédure interne ?",
+      "Un exercice de simulation de gestion de crise cyber a-t-il été réalisé récemment ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "NIS2-ART21-SUPPLYCHAIN",
+    "referentiel": "Directive NIS2 (UE 2022/2555)",
+    "domaine": "Chaîne d'approvisionnement",
+    "titre": "Sécurité des relations avec les fournisseurs directs",
+    "resume": "Les entités doivent évaluer les pratiques de cybersécurité de leurs fournisseurs et prestataires de services directs, en tenant compte des vulnérabilités propres à chaque fournisseur et de la qualité globale de leurs pratiques de sécurité.",
+    "questions_evaluation": [
+      "Les fournisseurs critiques font-ils l'objet d'une évaluation de sécurité avant contractualisation ?",
+      "Des clauses de sécurité et d'audit sont-elles intégrées aux contrats fournisseurs ?",
+      "Le niveau de criticité de chaque fournisseur est-il documenté et réévalué périodiquement ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "NIS2-ART21-TRAINING",
+    "referentiel": "Directive NIS2 (UE 2022/2555)",
+    "domaine": "Sensibilisation",
+    "titre": "Formation et hygiène cyber de base",
+    "resume": "Les mesures doivent inclure des pratiques de base en matière d'hygiène informatique et des formations à la cybersécurité pour l'ensemble du personnel concerné.",
+    "questions_evaluation": [
+      "Un programme de sensibilisation à la cybersécurité est-il déployé pour tous les collaborateurs ?",
+      "La fréquence des campagnes de sensibilisation (ex. phishing simulé) est-elle au moins annuelle ?",
+      "Les nouveaux arrivants reçoivent-ils une sensibilisation à la sécurité dès leur intégration ?"
+    ],
+    "niveau_criticite_defaut": "moyen"
+  }
+]

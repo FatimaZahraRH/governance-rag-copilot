@@ -1,0 +1,20 @@
+# --- Cœur du projet (toujours nécessaire) ---
+chromadb>=0.5.0
+scikit-learn>=1.4.0     # utilisé par le fournisseur d'embeddings TF-IDF (par défaut, hors-ligne)
+joblib>=1.4.0            # persistance du vectorizer TF-IDF
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+
+# --- Optionnel : meilleure qualité d'embeddings (nécessite Internet au 1er lancement) ---
+sentence-transformers>=3.0.0
+
+# --- API ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# --- Fournisseurs LLM optionnels (n'installez que ce dont vous avez besoin) ---
+openai>=1.30.0          # requis pour LLM_PROVIDER=openai ou azure_openai
+requests>=2.32.0        # requis pour LLM_PROVIDER=ollama
+
+# --- Tests et évaluation ---
+pytest>=8.0.0

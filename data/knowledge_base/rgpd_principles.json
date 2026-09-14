@@ -1,0 +1,80 @@
+[
+  {
+    "id": "RGPD-ART5-PRINCIPES",
+    "referentiel": "RGPD (UE 2016/679)",
+    "domaine": "Principes fondamentaux",
+    "titre": "Principes relatifs au traitement des données personnelles",
+    "resume": "Les données personnelles doivent être traitées de manière licite, loyale et transparente, collectées pour des finalités déterminées, limitées à ce qui est nécessaire (minimisation), exactes, conservées pour une durée limitée, et protégées par des mesures de sécurité appropriées.",
+    "questions_evaluation": [
+      "Les finalités de chaque traitement de données personnelles sont-elles documentées ?",
+      "Le principe de minimisation est-il appliqué (collecte limitée au strict nécessaire) ?",
+      "Des durées de conservation sont-elles définies et appliquées pour chaque catégorie de données ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "RGPD-ART30-REGISTRE",
+    "referentiel": "RGPD (UE 2016/679)",
+    "domaine": "Documentation",
+    "titre": "Registre des activités de traitement",
+    "resume": "Chaque responsable de traitement doit tenir un registre des activités de traitement effectuées sous sa responsabilité, incluant finalités, catégories de données, destinataires et délais de conservation.",
+    "questions_evaluation": [
+      "Un registre des traitements est-il tenu à jour et centralisé ?",
+      "Le registre couvre-t-il les traitements réalisés par des sous-traitants ?",
+      "Le registre est-il revu à chaque nouveau projet impliquant des données personnelles ?"
+    ],
+    "niveau_criticite_defaut": "moyen"
+  },
+  {
+    "id": "RGPD-ART32-SECURITE",
+    "referentiel": "RGPD (UE 2016/679)",
+    "domaine": "Sécurité des traitements",
+    "titre": "Sécurité du traitement",
+    "resume": "Le responsable et le sous-traitant doivent mettre en œuvre des mesures techniques et organisationnelles appropriées pour garantir un niveau de sécurité adapté au risque, incluant pseudonymisation, chiffrement, et capacité à restaurer la disponibilité des données.",
+    "questions_evaluation": [
+      "Des mesures de pseudonymisation ou de chiffrement sont-elles appliquées aux données sensibles ?",
+      "Une procédure de restauration des données en cas d'incident est-elle testée régulièrement ?",
+      "Le niveau de sécurité est-il réévalué en fonction de l'évolution des risques ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "RGPD-ART33-VIOLATION",
+    "referentiel": "RGPD (UE 2016/679)",
+    "domaine": "Gestion des incidents",
+    "titre": "Notification d'une violation de données à la CNIL",
+    "resume": "En cas de violation de données à caractère personnel, le responsable de traitement doit la notifier à l'autorité de contrôle compétente (en France, la CNIL) dans les meilleurs délais et, si possible, 72 heures au plus tard après en avoir pris connaissance.",
+    "questions_evaluation": [
+      "Une procédure de notification de violation de données dans les 72h existe-t-elle ?",
+      "Les critères de qualification d'une violation notifiable sont-ils clairement définis ?",
+      "Un registre des violations de données (y compris celles non notifiées) est-il tenu ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "RGPD-ART35-AIPD",
+    "referentiel": "RGPD (UE 2016/679)",
+    "domaine": "Analyse d'impact",
+    "titre": "Analyse d'impact relative à la protection des données (AIPD/DPIA)",
+    "resume": "Lorsqu'un traitement est susceptible d'engendrer un risque élevé pour les droits et libertés des personnes physiques, une analyse d'impact relative à la protection des données doit être réalisée avant la mise en œuvre du traitement.",
+    "questions_evaluation": [
+      "Un processus de détection des traitements nécessitant une AIPD est-il en place ?",
+      "Des AIPD ont-elles été réalisées pour les traitements à risque élevé identifiés ?",
+      "Le DPO (délégué à la protection des données) est-il consulté systématiquement sur ces analyses ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  },
+  {
+    "id": "RGPD-ART44-TRANSFERT",
+    "referentiel": "RGPD (UE 2016/679)",
+    "domaine": "Transferts internationaux",
+    "titre": "Transferts de données hors Union européenne",
+    "resume": "Tout transfert de données personnelles vers un pays tiers ne bénéficiant pas d'une décision d'adéquation doit être encadré par des garanties appropriées (clauses contractuelles types, règles d'entreprise contraignantes, etc.).",
+    "questions_evaluation": [
+      "Les flux de données vers des pays tiers sont-ils identifiés et cartographiés ?",
+      "Des clauses contractuelles types (CCT) sont-elles en place pour les transferts hors UE ?",
+      "Une analyse de l'encadrement juridique du pays destinataire a-t-elle été réalisée (ex. Schrems II) ?"
+    ],
+    "niveau_criticite_defaut": "eleve"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Quelles sont les exigences de chiffrement pour les données sensibles ?",
+    "expected_control_ids": ["ISO27001-A.8.24", "RGPD-ART32-SECURITE"]
+  },
+  {
+    "question": "Dans quel délai faut-il notifier une violation de données personnelles à la CNIL ?",
+    "expected_control_ids": ["RGPD-ART33-VIOLATION"]
+  },
+  {
+    "question": "Quelles sont les obligations de notification d'incident selon NIS2 ?",
+    "expected_control_ids": ["NIS2-ART23-INCIDENT"]
+  },
+  {
+    "question": "Comment évaluer la sécurité d'un nouveau fournisseur cloud/SaaS ?",
+    "expected_control_ids": ["ISO27001-A.5.23", "NIS2-ART21-SUPPLYCHAIN"]
+  },
+  {
+    "question": "Qu'est-ce que le principe du moindre privilège en gestion des accès ?",
+    "expected_control_ids": ["ISO27001-A.5.15"]
+  },
+  {
+    "question": "Dans quels cas faut-il réaliser une analyse d'impact relative à la protection des données ?",
+    "expected_control_ids": ["RGPD-ART35-AIPD"]
+  },
+  {
+    "question": "Quelles garanties sont nécessaires pour transférer des données hors Union européenne ?",
+    "expected_control_ids": ["RGPD-ART44-TRANSFERT"]
+  },
+  {
+    "question": "Comment doit être organisée la gouvernance des risques cyber au niveau de la direction ?",
+    "expected_control_ids": ["NIS2-ART21-GOV"]
+  },
+  {
+    "question": "Quelle est la meilleure recette de tarte au citron ?",
+    "expected_control_ids": []
+  }
+]

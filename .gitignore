@@ -1,0 +1,23 @@
+# Environnement
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Données générées localement (index vectoriel, rapports de démo)
+data/vectorstore/*
+!data/vectorstore/.gitkeep
+evaluation_demo_report.md
+evaluation_rag_results.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
