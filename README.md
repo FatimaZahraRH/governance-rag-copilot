@@ -6,7 +6,7 @@ Projet réalisé pour préparer une candidature en cybersécurité orientée *Se
 
 ---
 
-## 🎯 Pourquoi ce projet
+## Pourquoi ce projet
 
 Les équipes de gouvernance cybersécurité passent beaucoup de temps à répondre à des questions récurrentes des chefs de projet ("dois-je chiffrer ces données ?", "ce fournisseur SaaS est-il conforme ?") et à évaluer la sécurité de solutions tierces avant leur adoption. Ce projet construit les deux briques correspondantes :
 
@@ -15,7 +15,7 @@ Les équipes de gouvernance cybersécurité passent beaucoup de temps à répond
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐      ┌──────────────────┐      ┌─────────────────────┐
@@ -53,7 +53,7 @@ La même logique s'applique aux embeddings (`src/rag/embeddings.py`) : `tfidf` (
 
 ---
 
-## 📂 Structure du projet
+## Structure du projet
 
 ```
 governance-rag-copilot/
@@ -96,7 +96,7 @@ governance-rag-copilot/
 
 ---
 
-## 🚀 Installation et démarrage rapide
+## Installation et démarrage rapide
 
 ```bash
 git clone <votre-repo>
@@ -141,7 +141,7 @@ Aucune autre modification de code nécessaire.
 
 ---
 
-## 📊 Résultats mesurés
+## Résultats mesurés
 
 ### Qualité du retrieval RAG (`evaluation/eval_rag.py`)
 
@@ -166,7 +166,7 @@ pytest tests/ -v
 
 ---
 
-## 🧠 Choix de conception à retenir
+##  Choix de conception à retenir
 
 - **Traçabilité systématique** : chaque réponse du chatbot cite l'identifiant exact du contrôle utilisé (ex. `ISO27001-A.8.24`). Aucune affirmation sur une exigence de sécurité n'est faite sans source vérifiable.
 - **Pondération contextuelle, pas un score plat** : le moteur de scoring ne traite pas tous les contrôles de la même façon quel que soit le projet évalué. Le facteur d'amplification (`ProjectContext.facteur_amplification()`) rend explicite et auditable pourquoi un contrôle pèse plus lourd dans tel contexte — plutôt qu'un modèle boîte noire.
@@ -176,7 +176,7 @@ pytest tests/ -v
 
 ---
 
-## ⚠️ Limites assumées et pistes d'amélioration
+##  Limites assumées et pistes d'amélioration
 
 - La base de connaissances (19 contrôles) est un **jeu de démonstration**, rédigé dans mes propres mots à partir de la structure publique des référentiels — pas une copie intégrale des textes officiels (payants pour ISO 27001). En production, elle serait alimentée par les textes réglementaires complets sous licence appropriée.
 - Le mode d'embeddings par défaut (`tfidf`) privilégie la robustesse hors-ligne à la qualité sémantique. Pour une similarité plus fine (synonymes, paraphrases), passer à `EMBEDDING_PROVIDER=local` (sentence-transformers) ou `openai`.
@@ -185,7 +185,7 @@ pytest tests/ -v
 
 ---
 
-## 🛠️ Stack technique
+##  Stack technique
 
 Python 3.12 · ChromaDB · scikit-learn (TF-IDF) · sentence-transformers (optionnel) · FastAPI · Pydantic · pytest · OpenAI SDK (compatible Azure OpenAI)
 
