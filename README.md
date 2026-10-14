@@ -1,6 +1,12 @@
 # Governance RAG Copilot
 
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white) ![Tests](https://img.shields.io/badge/tests-25%20passed-brightgreen) ![Licence](https://img.shields.io/badge/licence-MIT-blue)
+
 **Chatbot de gouvernance cybersécurité (RAG sourcé) + moteur de scoring de conformité pour l'évaluation de sécurité des tiers.**
+
+> **En bref** — un assistant de gouvernance cybersécurité qui répond aux questions des chefs de projet en citant toujours le contrôle source (ISO 27001, NIS2, RGPD), et qui refuse de répondre quand aucune source n'est pertinente. Un moteur de scoring évalue un fournisseur tiers en pondérant chaque contrôle selon le contexte du projet, puis produit un plan de remédiation priorisé.
+>
+> **Recall@4 : 0,875 · Precision@4 : 0,938 · 25 tests.**
 
 Domaines : *Security by Design*, gouvernance cyber et IA générative appliquée à la conformité (ISO 27001, NIS2, RGPD).
 
@@ -99,7 +105,7 @@ governance-rag-copilot/
 ## Installation et démarrage rapide
 
 ```bash
-git clone <votre-repo>
+git clone https://github.com/FatimaZahraRH/governance-rag-copilot.git
 cd governance-rag-copilot
 
 python3 -m venv venv
@@ -193,4 +199,4 @@ Python 3.12 · ChromaDB · scikit-learn (TF-IDF) · sentence-transformers (optio
 
 ## Licence
 
-Projet personnel à but pédagogique et de démonstration. Les extraits de référentiels de sécurité sont des reformulations synthétiques à des fins de démonstration et ne remplacent pas les textes réglementaires officiels.
+Distribué sous licence MIT (voir [`LICENSE`](LICENSE)). Projet personnel à but pédagogique et de démonstration. Les extraits de référentiels de sécurité sont des reformulations synthétiques à des fins de démonstration et ne remplacent pas les textes réglementaires officiels.
