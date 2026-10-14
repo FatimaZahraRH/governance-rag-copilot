@@ -2,7 +2,7 @@
 
 **Chatbot de gouvernance cybersécurité (RAG sourcé) + moteur de scoring de conformité pour l'évaluation de sécurité des tiers.**
 
-Projet réalisé pour préparer une candidature en cybersécurité orientée *Security by Design*, gouvernance cyber et IA générative appliquée à la conformité (ISO 27001, NIS2, RGPD).
+Domaines : *Security by Design*, gouvernance cyber et IA générative appliquée à la conformité (ISO 27001, NIS2, RGPD).
 
 ---
 
